@@ -22,7 +22,7 @@ function Header() {
     return (
         <div>
             <nav className='navbar'>
-                <h1>BulkEmail</h1>
+                <h1>URL Shortener</h1>
                 <div className='navbar-links'>
                     
                     <p className='navbar-link'><Link exact to='/login'>Login</Link></p>
