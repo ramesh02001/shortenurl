@@ -1,0 +1,20 @@
+/* src/components/Redirect.css */
+
+.redirect-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.redirect-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redirect-container p {
+    font-size: 16px;
+    color: #555;
+}
