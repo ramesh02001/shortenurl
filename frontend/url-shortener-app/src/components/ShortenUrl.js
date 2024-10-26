@@ -10,7 +10,7 @@ function ShortenUrl() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:3000/api/url/shorten', {
+            const response = await fetch('https://shortenurl-1-lvaa.onrender.com/api/url/shorten', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
