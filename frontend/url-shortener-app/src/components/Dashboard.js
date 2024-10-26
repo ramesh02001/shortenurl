@@ -9,7 +9,7 @@ function Dashboard() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch('http://localhost:3000/api/url/dashboard', {
+                const res = await fetch('https://shortenurl-1-lvaa.onrender.com/api/url/dashboard', {
                     method: 'GET',
                     headers: {
                         'x-auth-token': localStorage.getItem("token"),
