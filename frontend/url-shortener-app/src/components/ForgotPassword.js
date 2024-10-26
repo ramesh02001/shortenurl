@@ -13,7 +13,7 @@ const handleSubmit = async (e) => {
     setError('');
 
     try {
-        const response = await fetch('https://bulkemail2001.onrender.com/api/auth/forgot-password', {
+        const response = await fetch('https://shortenurl-1-lvaa.onrender.com/api/auth/forgot-password', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
